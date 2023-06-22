@@ -1,0 +1,79 @@
+.border-navbar {
+    border-radius: 0 0 15px 15px;
+}
+
+.border-card {
+    border-radius: 20px;
+}
+
+.color-bg {
+    background-color: #6582f8;
+}
+
+.color-bg-button {
+    background-color: #84a3fb;
+}
+
+.color-button-disabled {
+    background-color: #eceeef;
+}
+
+.shadow-card {
+	box-shadow: inset 0px -6px 0px rgba(0, 0, 0, 0.06), inset 4px 4px 0px rgba(255, 255, 255, 0.25);
+}
+
+.font-card-title {
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.font-size-card {
+    font-size: 32px;
+    color: #6582f8;
+}
+
+.font-size-quantity {
+    font-size: 13px;
+    font-weight: 550;
+}
+
+.font-size-view {
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.margin-card {
+    margin-top: -8px;
+}
+
+.font-size-data {
+    font-size: 14px;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+}
+
+.m-t-collapse {
+    margin-top: 14px;
+}
+
+.bottom-button {
+    bottom: 30px;
+}
+
+.navigator {
+    display: flex;
+    overflow-x: scroll;
+    width: 100%;
+}
+
+.text-month {
+    font-size: 12px;
+
+    &:hover {
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
