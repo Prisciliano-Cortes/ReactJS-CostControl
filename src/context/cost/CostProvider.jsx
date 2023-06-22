@@ -26,7 +26,7 @@ export const CostProvider = ({ children }) => {
             const totalIncome = income.reduce((accumulator, { quantity }) => accumulator + quantity, 0);
 
             //*** Check balance for month */
-            const balanceMonth = totalExpenses - totalIncome
+            const balanceMonth = totalIncome - totalExpenses
 
             const reduceBalance = balanceMonth.toFixed(2)
 
